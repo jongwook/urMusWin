@@ -1,0 +1,254 @@
+﻿Build started 2010-05-05 오후 3:15:32.
+     1>Project "C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\STKConsole\STKConsole.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\urMusWin.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\lpng141" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\zlib-1.2.4" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\stk-4.4.2\include" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\\lua-5.1.4\src" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D __WINDOWS_DS__ /D __WINDOWS_MM__ /D __LITTLE_ENDIAN__ /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt opengl.cpp /MP2 
+         opengl.cpp
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urTexture.h(69): warning C4244: 'return' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>opengl.cpp(250): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>opengl.cpp(363): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>opengl.cpp(542): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(543): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(544): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(545): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(547): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(548): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(549): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(550): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(552): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(553): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(554): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(555): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(557): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(558): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(559): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(560): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(564): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(565): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(566): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(567): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(569): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(570): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(571): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(572): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(574): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(575): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(576): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(577): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(579): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(580): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(581): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(582): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(681): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>opengl.cpp(692): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>opengl.cpp(706): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(707): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(708): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(709): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>opengl.cpp(714): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>opengl.cpp(719): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>opengl.cpp(725): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>opengl.cpp(729): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(860): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(860): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(863): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(864): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(871): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>opengl.cpp(872): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>opengl.cpp(874): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(874): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(874): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(877): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(879): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(879): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(879): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(882): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(885): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(886): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(890): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(890): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(893): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(894): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(899): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>opengl.cpp(899): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Release\urMusWin.exe" /INCREMENTAL:NO /NOLOGO winmm.lib wsock32.lib dsound.lib freetype2312.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\urMusWin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Release\urMusWin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Release\urMusWin.lib" /MACHINE:X86 Release\AudioLayer.obj
+         Release\urFont.obj
+         Release\MachTimer.obj
+         Release\main.obj
+         Release\opengl.obj
+         Release\Texture2d.obj
+         Release\urAPI.obj
+         Release\urImage.obj
+         Release\urSound.obj
+         Release\urSoundAtoms.obj
+         Release\urSTK.obj
+         Release\urTexture.obj
+         Release\lapi.obj
+         Release\lauxlib.obj
+         Release\lbaselib.obj
+         Release\lcode.obj
+         Release\ldblib.obj
+         Release\ldebug.obj
+         Release\ldo.obj
+         Release\ldump.obj
+         Release\lfunc.obj
+         Release\lgc.obj
+         Release\linit.obj
+         Release\liolib.obj
+         Release\llex.obj
+         Release\lmathlib.obj
+         Release\lmem.obj
+         Release\loadlib.obj
+         Release\lobject.obj
+         Release\lopcodes.obj
+         Release\loslib.obj
+         Release\lparser.obj
+         Release\lstate.obj
+         Release\lstring.obj
+         Release\lstrlib.obj
+         Release\ltable.obj
+         Release\ltablib.obj
+         Release\ltm.obj
+         Release\lundump.obj
+         Release\lvm.obj
+         Release\lzio.obj
+         Release\print.obj
+         Release\ADSR.obj
+         Release\Asymp.obj
+         Release\BandedWG.obj
+         Release\BeeThree.obj
+         Release\BiQuad.obj
+         Release\Blit.obj
+         Release\BlitSaw.obj
+         Release\BlitSquare.obj
+         Release\BlowBotl.obj
+         Release\BlowHole.obj
+         Release\Bowed.obj
+         Release\Brass.obj
+         Release\Chorus.obj
+         Release\Clarinet.obj
+         Release\Delay.obj
+         Release\DelayA.obj
+         Release\DelayL.obj
+         Release\Drummer.obj
+         Release\Echo.obj
+         Release\Envelope.obj
+         Release\FileLoop.obj
+         Release\FileRead.obj
+         Release\FileWrite.obj
+         Release\FileWvIn.obj
+         Release\FileWvOut.obj
+         Release\Fir.obj
+         Release\Flute.obj
+         Release\FM.obj
+         Release\FMVoices.obj
+         Release\FormSwep.obj
+         Release\Granulate.obj
+         Release\HevyMetl.obj
+         Release\Iir.obj
+         Release\InetWvIn.obj
+         Release\InetWvOut.obj
+         Release\JCRev.obj
+         Release\LentPitShift.obj
+         Release\Mandolin.obj
+         Release\Mesh2D.obj
+         Release\Messager.obj
+         Release\MidiFileIn.obj
+         Release\Modal.obj
+         Release\ModalBar.obj
+         Release\Modulate.obj
+         Release\Moog.obj
+         Release\Mutex.obj
+         Release\Noise.obj
+         Release\NRev.obj
+         Release\OnePole.obj
+         Release\OneZero.obj
+         Release\PercFlut.obj
+         Release\Phonemes.obj
+         Release\PitShift.obj
+         Release\Plucked.obj
+         Release\PluckTwo.obj
+         Release\PoleZero.obj
+         Release\PRCRev.obj
+         Release\Resonate.obj
+         Release\Rhodey.obj
+         Release\RtAudio.obj
+         Release\RtMidi.obj
+         Release\RtWvIn.obj
+         Release\RtWvOut.obj
+         Release\Sampler.obj
+         Release\Saxofony.obj
+         Release\Shakers.obj
+         Release\Simple.obj
+         Release\SineWave.obj
+         Release\SingWave.obj
+         Release\Sitar.obj
+         Release\Skini.obj
+         Release\Socket.obj
+         Release\Sphere.obj
+         Release\StifKarp.obj
+         Release\Stk.obj
+         Release\TapDelay.obj
+         Release\TcpClient.obj
+         Release\TcpServer.obj
+         Release\Thread.obj
+         Release\TubeBell.obj
+         Release\TwoPole.obj
+         Release\TwoZero.obj
+         Release\UdpSocket.obj
+         Release\Voicer.obj
+         Release\VoicForm.obj
+         Release\Whistle.obj
+         Release\Wurley.obj
+         Release\png.obj
+         Release\pngerror.obj
+         Release\pngget.obj
+         Release\pngmem.obj
+         Release\pngpread.obj
+         Release\pngread.obj
+         Release\pngrio.obj
+         Release\pngrtran.obj
+         Release\pngrutil.obj
+         Release\pngset.obj
+         Release\pngtrans.obj
+         Release\pngwio.obj
+         Release\pngwrite.obj
+         Release\pngwtran.obj
+         Release\pngwutil.obj
+         Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\gzclose.obj
+         Release\gzlib.obj
+         Release\gzread.obj
+         Release\gzwrite.obj
+         Release\infback.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         Generating code
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1805): warning C4700: uninitialized local variable 'x' used
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1805): warning C4700: uninitialized local variable 'y' used
+         Finished generating code
+         STKConsole.vcxproj -> C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Release\urMusWin.exe
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Release\urMusWin.exe;#1" /manifest Release\urMusWin.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\urMusWin.unsuccessfulbuild".
+         Touching "Release\urMusWin.lastbuildstate".
+     1>Done Building Project "C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\STKConsole\STKConsole.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.88
