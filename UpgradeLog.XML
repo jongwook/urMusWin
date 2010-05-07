@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="urMusWin">
+</Property><Property Name="Solution File" Value="C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\urMusWin.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\urMusWin.suo">
+</Property><Property Name="Date" Value="2010년 5월 4일 화요일">
+</Property><Property Name="Time" Value="오후 20:45">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="urMusWin.sln" Description="File successfully backed up as C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\urMusWin.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="urMusWin.suo" Description="File successfully backed up as C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\urMusWin.suo.old">
+</Event><Event ErrorLevel="0" Project="STKConsole" Source="STKConsole\STKConsole.vcproj" Description="Converting project file 'C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\STKConsole\STKConsole.vcproj'.">
+</Event><Event ErrorLevel="1" Project="STKConsole" Source="STKConsole\STKConsole.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="STKConsole" Source="STKConsole\STKConsole.vcproj" Description="Done converting to new project file 'C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\STKConsole\STKConsole.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="STKConsole" Source="STKConsole\STKConsole.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="urMusWin.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="urMusWin.sln" Description="Converted">
+</Event></UpgradeLog>

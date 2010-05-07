@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="urMus">
+      <UniqueIdentifier>{1e70209f-a129-42c5-a023-98e3feab0fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="urMus\Source Files">
+      <UniqueIdentifier>{9bfc3315-0c76-4f00-921b-2eda7fa7e8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="urMus\Header Files">
+      <UniqueIdentifier>{f3d8fef9-7c58-49af-b9d5-3fa02f9a6120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua 5.1.4">
+      <UniqueIdentifier>{aae16346-1f32-476d-b12d-85b129605cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua 5.1.4\Header Files">
+      <UniqueIdentifier>{943ccac6-f719-49a9-85d5-7dcbb3ebfe26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua 5.1.4\Source Files">
+      <UniqueIdentifier>{fa425f98-4105-46ff-9e2d-7960dab0b7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STK 4.4.2">
+      <UniqueIdentifier>{0c47626a-e7bf-4a14-9594-f2d679208f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STK 4.4.2\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="STK 4.4.2\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="lpng">
+      <UniqueIdentifier>{8a244c5f-f4fb-422e-8891-f49d7297dae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{d20a7fce-5a2a-445b-910b-2592ac0ccc1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioLayer.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachTimer.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2d.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urAPI.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urImage.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urSound.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urSoundAtoms.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urSTK.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="urTexture.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lapi.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lauxlib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lbaselib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lcode.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\ldblib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\ldebug.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\ldo.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\ldump.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lfunc.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lgc.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\linit.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\liolib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\llex.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lmathlib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lmem.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\loadlib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lobject.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lopcodes.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\loslib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lparser.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lstate.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lstring.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lstrlib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\ltable.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\ltablib.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\ltm.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lundump.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lvm.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\lzio.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua-5.1.4\src\print.c">
+      <Filter>Lua 5.1.4\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\ADSR.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Asymp.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\BandedWG.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\BeeThree.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\BiQuad.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Blit.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\BlitSaw.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\BlitSquare.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\BlowBotl.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\BlowHole.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Bowed.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Brass.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Chorus.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Clarinet.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Delay.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\DelayA.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\DelayL.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Drummer.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Echo.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Envelope.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FileLoop.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FileRead.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FileWrite.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FileWvIn.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FileWvOut.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Fir.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Flute.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FM.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FMVoices.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\FormSwep.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Granulate.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\HevyMetl.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Iir.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\InetWvIn.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\InetWvOut.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\JCRev.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\LentPitShift.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Mandolin.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Mesh2D.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Messager.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\MidiFileIn.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Modal.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\ModalBar.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Modulate.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Moog.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Mutex.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Noise.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\NRev.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\OnePole.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\OneZero.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\PercFlut.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Phonemes.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\PitShift.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Plucked.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\PluckTwo.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\PoleZero.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\PRCRev.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Resonate.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Rhodey.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\RtAudio.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\RtMidi.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\RtWvIn.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\RtWvOut.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Sampler.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Saxofony.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Shakers.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Simple.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\SineWave.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\SingWave.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Sitar.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Skini.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Socket.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Sphere.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\StifKarp.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Stk.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\TapDelay.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\TcpClient.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\TcpServer.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Thread.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\TubeBell.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\TwoPole.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\TwoZero.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\UdpSocket.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Voicer.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\VoicForm.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Whistle.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stk-4.4.2\src\Wurley.cpp">
+      <Filter>STK 4.4.2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\png.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngerror.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngget.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngmem.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngpread.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngread.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngrio.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngrtran.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngrutil.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngset.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngtrans.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngwio.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngwrite.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngwtran.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lpng141\pngwutil.c">
+      <Filter>lpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlib-1.2.4\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="urFont.cpp">
+      <Filter>urMus\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioLayer.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachTimer.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2d.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urAPI.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urImage.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urSound.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urSoundAtoms.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urSTK.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lapi.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lauxlib.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lcode.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\ldebug.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\ldo.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lfunc.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lgc.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\llex.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\llimits.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lmem.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lobject.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lopcodes.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lparser.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lstate.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lstring.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\ltable.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\ltm.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lua.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\luaconf.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lualib.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lundump.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lvm.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua-5.1.4\src\lzio.h">
+      <Filter>Lua 5.1.4\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\ADSR.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Asymp.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BandedWG.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BeeThree.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BiQuad.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Blit.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BlitSaw.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BlitSquare.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BlowBotl.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BlowHole.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Bowed.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\BowTable.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Brass.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Chorus.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Clarinet.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Delay.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\DelayA.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\DelayL.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Drummer.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Echo.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Effect.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Envelope.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FileLoop.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FileRead.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FileWrite.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FileWvIn.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FileWvOut.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Filter.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Fir.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Flute.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FM.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FMVoices.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\FormSwep.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Function.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Generator.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Granulate.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\HevyMetl.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Iir.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\InetWvIn.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\InetWvOut.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Instrmnt.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\JCRev.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\JetTable.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\LentPitShift.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Mandolin.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Mesh2D.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Messager.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\MidiFileIn.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Modal.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\ModalBar.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Modulate.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Moog.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Mutex.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Noise.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\NRev.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\OnePole.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\OneZero.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\PercFlut.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Phonemes.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\PitShift.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Plucked.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\PluckTwo.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\PoleZero.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\PRCRev.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\ReedTable.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Resonate.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Rhodey.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\RtAudio.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\RtError.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\RtMidi.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\RtWvIn.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\RtWvOut.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Sampler.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Saxofony.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Shakers.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Simple.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\SineWave.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\SingWave.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Sitar.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Skini.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Socket.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Sphere.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\StifKarp.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Stk.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\TapDelay.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\TcpClient.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\TcpServer.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Thread.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\TubeBell.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\TwoPole.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\TwoZero.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\UdpSocket.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Vector3D.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Voicer.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\VoicForm.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Whistle.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\Wurley.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\WvIn.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stk-4.4.2\include\WvOut.h">
+      <Filter>STK 4.4.2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lpng141\png.h">
+      <Filter>lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lpng141\pngconf.h">
+      <Filter>lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lpng141\pngpriv.h">
+      <Filter>lpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlib-1.2.4\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="urTexture.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="urFont.h">
+      <Filter>urMus\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

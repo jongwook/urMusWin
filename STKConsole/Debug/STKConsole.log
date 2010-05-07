@@ -1,0 +1,358 @@
+﻿Build started 2010-05-05 오후 3:22:16.
+     1>Project "C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\STKConsole\STKConsole.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\urMusWin.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\lpng141" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\zlib-1.2.4" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\stk-4.4.2\include" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\\lua-5.1.4\src" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D __WINDOWS_DS__ /D __WINDOWS_MM__ /D __LITTLE_ENDIAN__ /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt urFont.cpp main.cpp opengl.cpp urTexture.cpp /MP2 
+         urFont.cpp
+         main.cpp
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urtexture.h(69): warning C4244: 'return' : conversion from 'float' to 'unsigned int', possible loss of data
+         opengl.cpp
+         urTexture.cpp
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urtexture.h(69): warning C4244: 'return' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(250): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(363): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(542): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(543): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(544): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(545): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(547): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(548): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(549): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(550): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(552): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(553): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(554): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(555): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(557): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(558): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(559): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(560): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(564): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(565): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(566): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(567): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(569): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(570): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(571): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(572): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(574): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(575): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(576): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(577): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(579): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(580): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(581): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(582): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(681): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(692): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(706): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(707): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(708): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(709): warning C4244: '=' : conversion from 'float' to 'GLubyte', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(714): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(719): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(725): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(729): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(860): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(860): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(863): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(864): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(871): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(872): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(874): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(874): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(874): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(877): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(879): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(879): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(879): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(882): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(885): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(886): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(890): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(890): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(893): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(894): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(899): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\opengl.cpp(899): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urtexture.h(69): warning C4244: 'return' : conversion from 'float' to 'unsigned int', possible loss of data
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\lpng141" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\zlib-1.2.4" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\stk-4.4.2\include" /I"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\\lua-5.1.4\src" /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D __WINDOWS_DS__ /D __WINDOWS_MM__ /D __LITTLE_ENDIAN__ /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt urAPI.cpp /MP2 
+         urAPI.cpp
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urtexture.h(69): warning C4244: 'return' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(345): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(346): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(994): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1005): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1048): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1049): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1050): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1051): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1449): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1831): warning C4244: '=' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1885): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1886): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1887): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1889): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1913): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1914): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1915): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1916): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1917): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1918): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1919): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1920): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1999): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2000): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2001): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2004): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2027): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2028): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2029): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2030): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2043): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2044): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2045): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2046): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2047): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2048): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2049): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2050): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2072): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2076): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2077): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2078): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2079): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2080): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2081): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2082): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2083): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2209): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2210): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2211): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2212): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2229): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2230): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2231): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2247): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2248): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2260): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2413): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2414): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2415): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2416): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2433): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2434): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2449): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2464): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2481): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2482): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2483): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2484): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2505): warning C4244: '=' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2846): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2848): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2865): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2867): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2890): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2892): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2912): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2914): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2934): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2936): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2953): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2955): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2977): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2985): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(2993): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(3037): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(3059): warning C4244: 'initializing' : conversion from 'lua_Number' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(3206): warning C4244: '=' : conversion from 'lua_Number' to 'SInt32', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(3386): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(3389): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(3392): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1805): warning C4700: uninitialized local variable 'x' used
+     1>c:\users\jongwook-bc\documents\visual studio 2010\projects\urmuswin\stkconsole\urapi.cpp(1805): warning C4700: uninitialized local variable 'y' used
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Debug\urMusWin.exe" /INCREMENTAL /NOLOGO winmm.lib wsock32.lib dsound.lib freetype2312.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\urMusWin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Debug\urMusWin.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Debug\urMusWin.lib" /MACHINE:X86 Debug\urMusWin.exe.embed.manifest.res
+         Debug\AudioLayer.obj
+         Debug\urFont.obj
+         Debug\MachTimer.obj
+         Debug\main.obj
+         Debug\opengl.obj
+         Debug\Texture2d.obj
+         Debug\urAPI.obj
+         Debug\urImage.obj
+         Debug\urSound.obj
+         Debug\urSoundAtoms.obj
+         Debug\urSTK.obj
+         Debug\urTexture.obj
+         Debug\lapi.obj
+         Debug\lauxlib.obj
+         Debug\lbaselib.obj
+         Debug\lcode.obj
+         Debug\ldblib.obj
+         Debug\ldebug.obj
+         Debug\ldo.obj
+         Debug\ldump.obj
+         Debug\lfunc.obj
+         Debug\lgc.obj
+         Debug\linit.obj
+         Debug\liolib.obj
+         Debug\llex.obj
+         Debug\lmathlib.obj
+         Debug\lmem.obj
+         Debug\loadlib.obj
+         Debug\lobject.obj
+         Debug\lopcodes.obj
+         Debug\loslib.obj
+         Debug\lparser.obj
+         Debug\lstate.obj
+         Debug\lstring.obj
+         Debug\lstrlib.obj
+         Debug\ltable.obj
+         Debug\ltablib.obj
+         Debug\ltm.obj
+         Debug\lundump.obj
+         Debug\lvm.obj
+         Debug\lzio.obj
+         Debug\print.obj
+         Debug\ADSR.obj
+         Debug\Asymp.obj
+         Debug\BandedWG.obj
+         Debug\BeeThree.obj
+         Debug\BiQuad.obj
+         Debug\Blit.obj
+         Debug\BlitSaw.obj
+         Debug\BlitSquare.obj
+         Debug\BlowBotl.obj
+         Debug\BlowHole.obj
+         Debug\Bowed.obj
+         Debug\Brass.obj
+         Debug\Chorus.obj
+         Debug\Clarinet.obj
+         Debug\Delay.obj
+         Debug\DelayA.obj
+         Debug\DelayL.obj
+         Debug\Drummer.obj
+         Debug\Echo.obj
+         Debug\Envelope.obj
+         Debug\FileLoop.obj
+         Debug\FileRead.obj
+         Debug\FileWrite.obj
+         Debug\FileWvIn.obj
+         Debug\FileWvOut.obj
+         Debug\Fir.obj
+         Debug\Flute.obj
+         Debug\FM.obj
+         Debug\FMVoices.obj
+         Debug\FormSwep.obj
+         Debug\Granulate.obj
+         Debug\HevyMetl.obj
+         Debug\Iir.obj
+         Debug\InetWvIn.obj
+         Debug\InetWvOut.obj
+         Debug\JCRev.obj
+         Debug\LentPitShift.obj
+         Debug\Mandolin.obj
+         Debug\Mesh2D.obj
+         Debug\Messager.obj
+         Debug\MidiFileIn.obj
+         Debug\Modal.obj
+         Debug\ModalBar.obj
+         Debug\Modulate.obj
+         Debug\Moog.obj
+         Debug\Mutex.obj
+         Debug\Noise.obj
+         Debug\NRev.obj
+         Debug\OnePole.obj
+         Debug\OneZero.obj
+         Debug\PercFlut.obj
+         Debug\Phonemes.obj
+         Debug\PitShift.obj
+         Debug\Plucked.obj
+         Debug\PluckTwo.obj
+         Debug\PoleZero.obj
+         Debug\PRCRev.obj
+         Debug\Resonate.obj
+         Debug\Rhodey.obj
+         Debug\RtAudio.obj
+         Debug\RtMidi.obj
+         Debug\RtWvIn.obj
+         Debug\RtWvOut.obj
+         Debug\Sampler.obj
+         Debug\Saxofony.obj
+         Debug\Shakers.obj
+         Debug\Simple.obj
+         Debug\SineWave.obj
+         Debug\SingWave.obj
+         Debug\Sitar.obj
+         Debug\Skini.obj
+         Debug\Socket.obj
+         Debug\Sphere.obj
+         Debug\StifKarp.obj
+         Debug\Stk.obj
+         Debug\TapDelay.obj
+         Debug\TcpClient.obj
+         Debug\TcpServer.obj
+         Debug\Thread.obj
+         Debug\TubeBell.obj
+         Debug\TwoPole.obj
+         Debug\TwoZero.obj
+         Debug\UdpSocket.obj
+         Debug\Voicer.obj
+         Debug\VoicForm.obj
+         Debug\Whistle.obj
+         Debug\Wurley.obj
+         Debug\png.obj
+         Debug\pngerror.obj
+         Debug\pngget.obj
+         Debug\pngmem.obj
+         Debug\pngpread.obj
+         Debug\pngread.obj
+         Debug\pngrio.obj
+         Debug\pngrtran.obj
+         Debug\pngrutil.obj
+         Debug\pngset.obj
+         Debug\pngtrans.obj
+         Debug\pngwio.obj
+         Debug\pngwrite.obj
+         Debug\pngwtran.obj
+         Debug\pngwutil.obj
+         Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\urMusWin.exe.embed.manifest" /manifest Debug\urMusWin.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         STKConsole.vcxproj -> C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\Debug\urMusWin.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\urMusWin.unsuccessfulbuild".
+         Touching "Debug\urMusWin.lastbuildstate".
+     1>Done Building Project "C:\Users\Jongwook-BC\Documents\Visual Studio 2010\Projects\urMusWin\STKConsole\STKConsole.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.75
